@@ -1,0 +1,40 @@
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .smallFoto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .foto {
+    width: 77px;
+    height: 77px;
+    margin-right: 37px;
+    cursor: pointer;
+  }
+  
+  .foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .bigFoto {
+    width: 100%; 
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  }
+  
+  .bigFoto img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
